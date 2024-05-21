@@ -5,12 +5,14 @@ import Card from '../components/Card.astro';
 import SlideButton from '../components/SlideButton.astro';
 import Rainbow from '../components/RainbowButton.astro';
 import RainbowButton from '../components/RainbowButton.astro';
-
+import Wizzard from '../components/WizzardButton.astro';
+import Wizzard2 from '../components/WizzardButton2.astro';
+import Wizzard3 from '../components/WizzardButton3.astro';
 ---
 
 <Layout title="Wening Dirk">
     <h1>Hallo, ich bin Dirk!</h1>
-  
+    
     <h2>Über mich</h2>
     <p>Ich bin ein fokussierter und ehrgeiziger Profi mit einer Leidenschaft für meine Arbeit. Pünktlichkeit ist für mich selbstverständlich, und ich bin stets bereit, anderen zu helfen. Als Familienmensch schätze ich die Bedeutung von Zusammenhalt und verbringe gerne Zeit mit meinen Lieben.</p>
     <h2>Berufliche Erfahrung</h2>
@@ -20,10 +22,12 @@ import RainbowButton from '../components/RainbowButton.astro';
     <h2>Familie und Freizeit</h2>
     <p>Wenn ich nicht arbeite, genieße ich es, Zeit mit meiner Familie zu verbringen. Ob beim gemeinsamen Kochen, Spielen oder Ausflügen – der Zusammenhalt in meiner Familie ist mir besonders wichtig.</p>
 <section>
-<Rainbow></Rainbow><Rainbow></Rainbow><Rainbow></Rainbow><p> </p>
+<Wizzard></Wizzard> <Wizzard2></Wizzard2> <Wizzard3></Wizzard3> <p> </p>
 </section>
 <section> 
-
+    <Card href='https://github.com/SpeedD3' title="Github" body=""/> <p></p>
+    <Card href='https://www.linkedin.com/in/dirk-wening-38b7a22b2/' title="LinkedIn" body=""/>
+    <Card href="https://lug-learn.netlify.app/astro/einleitung/" title="LuG Learning" body=""/>
 </section>
 <section>  </section>
 <section></section>
