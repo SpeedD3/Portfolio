@@ -19,6 +19,7 @@ const { title } = Astro.props;
 	<body>
 		<nav></nav>
 		<main>
+			
 			<slot />
 		</main>
 		<footer></footer>
@@ -33,14 +34,14 @@ const { title } = Astro.props;
 			45deg,
 			rgb(var(--accent)),
 			rgb(var(--accent-light)) 30%,
-			white 60%
+			rgb(247, 242, 242) 70%
 		);
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background: #fdfbfb;
+		background: #eb0e0e;
 		background-size: 224px;
-		color:rgb(235, 235, 17);
+		color:rgb(3, 3, 0);
 	}
 	code {
 		font-family:
