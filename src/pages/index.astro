@@ -1,9 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import SlideButton from '../components/SlideButton.astro';
+import Rainbow from '../components/RainbowButton.astro';
+import Swipe from '../components/SwipeInButton.astro';
 ---
 
 <Layout title="Wening Dirk">
     <Card href='https://www.google.de' title='Google' body='Hallo Welt!' />
-
+<section>
+    <SlideButton></SlideButton>
+</section>
+<section> 
+<Rainbow>       </Rainbow>
+</section>
+<section>  <Swipe></Swipe>   </section>
+<section></section>
 </Layout>
