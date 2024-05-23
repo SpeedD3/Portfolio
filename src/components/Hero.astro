@@ -7,7 +7,7 @@
    <div style="text-align: left;">
     <h2>Über mich</h2>
     <p>
-       Ich bin ein fokussierter und ehrgeiziger Profi mit einer Leidenschaft für meine Arbeit. 
+       Ich bin eine fokussierte und ehrgeizige Persönlichkeit mit einer Leidenschaft für meine Arbeit. 
        Pünktlichkeit ist für mich selbstverständlich, und ich bin stets bereit, anderen zu helfen.
        Als Familienmensch schätze ich die Bedeutung von Zusammenhalt und verbringe gerne Zeit mit meinen Lieben.
     </p>
@@ -23,7 +23,13 @@
      display: flex;
      width: 100%;
      flex-direction: row-reverse;
-
+     justify-content: center;
+     align-items: center;
+    }
+    .hero-text > * {
+        text-align: center;
+        margin-bottom: 0,5rem;
+        margin-top: 50;
     }
 .hero .hero-image {
     hight: 800px;
@@ -37,11 +43,16 @@
     .hero .hero-text {
         width: 50%;
     }
-}@medium screen and (max-width: 821px) {
+    .hero-text p {
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 15px;
 
-}
-
-</style>
+    }
 
 
-</div>
+    
+
+
+
+</div></style>
